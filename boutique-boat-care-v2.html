@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boutique Boat Care — Premium Marine & Residential Detailing</title>
+  <meta name="description" content="Boutique Boat Care. Trained Ceramic Pro installers offering premium boat detailing, marine polishing, mobile services, shower glass coatings, and residential surface protection." />
+  <meta name="keywords" content="boat detailing, marine detailing, boat polishing, ceramic coating for boats, yacht cleaning, teak cleaning, mobile boat detailing, trailer boat detailing, shower glass coating, residential ceramic coating, Ceramic Pro installer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+<!-- MOBILE NAV -->
+<nav class="mobile-nav" id="mobileNav">
+  <a href="#home"          onclick="closeMobile()">Home</a>
+  <a href="#services"      onclick="closeMobile()">Services</a>
+  <a href="#home-coatings" onclick="closeMobile()">Home Coatings</a>
+  <a href="#process"       onclick="closeMobile()">Process</a>
+  <a href="#products"      onclick="closeMobile()">Products</a>
+  <a href="#quote"         onclick="closeMobile()">Quote</a>
+  <a href="#contact"       onclick="closeMobile()">Contact</a>
+</nav>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="wrap nav-inner">
+    <a href="#home" class="nav-logo">
+      <span class="brand">Boutique Boat Care</span>
+      <span class="sep"></span>
+      <span class="sub">Marine &amp; Residential</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#home-coatings">Home Coatings</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="nav-cta"><a href="#quote">Get a Quote</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMobile()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="wrap hero-body">
+    <div class="hero-top">
+      <div>
+        <div class="label" style="margin-bottom:2rem;">Premium Marine &amp; Residential Detailing</div>
+        <h1>
+          <span class="line">Boutique</span>
+          <span class="line">Boat</span>
+          <span class="line line--accent">Care.</span>
+        </h1>
+      </div>
+      <div class="hero-right">
+        <div class="hero-cert">
+          <div class="hero-cert-dot"></div>
+          <span>Trained Ceramic Pro Installer</span>
+        </div>
+        <p style="text-align:right;font-size:0.88rem;">Professional-grade detailing for boats, yachts, trailer craft, and residential surfaces — We come to you.</p>
+        <a href="#quote" class="btn-solid">
+          Request a Quote
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-sub">
+      <div class="hero-sub-item">
+        <span class="hero-sub-label">Coverage</span>
+        <span class="hero-sub-value">Mobile — We Come To You</span>
+      </div>
+      <div class="hero-sub-item">
+        <span class="hero-sub-label">Vessels</span>
+        <span class="hero-sub-value">Trailer Boats to Superyachts</span>
+      </div>
+      <div class="hero-sub-item">
+        <span class="hero-sub-label">Certification</span>
+        <span class="hero-sub-value">Ceramic Pro Trained Installer</span>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="hero-scroll">
+      <span class="scroll-label">Scroll to explore</span>
+      <div class="scroll-bar"></div>
+      <div class="scroll-tick"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+
+    <div class="s-head reveal">
+      <div>
+        <div class="label label--accent" style="margin-bottom:1rem;">01 — Services</div>
+        <h2>Marine<br>Detailing</h2>
+      </div>
+      <div style="padding-top:0.6rem;">
+        <p>From trailer boats in your driveway to vessels in a marina berth, our mobile unit brings professional equipment and premium products directly to you. No hauling required.</p>
+      </div>
+    </div>
+
+    <div class="svc-block">
+      <div class="cat-header">
+        <span class="dash">—</span>
+        <span class="lbl">Marine Services</span>
+      </div>
+      <div class="svc-grid">
+        <div class="svc-card reveal">
+          <span class="svc-n">01</span>
+          <h3>Boat Polishing</h3>
+          <p>Machine compounding and multi-stage polishing to remove oxidation, swirl marks, and surface defects — restoring depth and gloss to like-new condition.</p>
+        </div>
+        <div class="svc-card reveal d1">
+          <span class="svc-n">02</span>
+          <h3>Wash Downs</h3>
+          <p>Thorough freshwater and salt-neutralising wash downs to protect your vessel from salt, grime, and marine buildup after every outing.</p>
+        </div>
+        <div class="svc-card reveal d2">
+          <span class="svc-n">03</span>
+          <h3>Waxing &amp; Sealants</h3>
+          <p>Premium hand and machine wax application using Koch Chemie formulations for durable protection and a showroom-quality finish.</p>
+        </div>
+        <div class="svc-card reveal">
+          <span class="svc-n">04</span>
+          <h3>Stainless Steel Polishing</h3>
+          <p>Removal of rust staining, water marks, and discolouration from rails, cleats, and all stainless fittings — finished to a mirror polish.</p>
+        </div>
+        <div class="svc-card reveal d1">
+          <span class="svc-n">05</span>
+          <h3>Teak Cleaning &amp; Brightening</h3>
+          <p>Specialist teak deck cleaning and brightening to restore colour and protect timber</p>
+        </div>
+        <div class="svc-card reveal d2">
+          <span class="svc-n">06</span>
+          <h3>Ceramic Coatings</h3>
+          <p>As trained Ceramic Pro installers, we apply industry-leading nano-ceramic coatings for long-term protection and effortless maintenance.</p>
+          <span class="svc-tag">Certified Installer</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="svc-block reveal">
+      <div class="cat-header">
+        <span class="dash">—</span>
+        <span class="lbl">Trailer Boats &amp; Mobile Service</span>
+      </div>
+      <div class="svc-grid">
+        <div class="svc-card">
+          <span class="svc-n">01</span>
+          <h3>Trailer Boat Detailing</h3>
+          <p>Full detailing for trailered vessels — launches, yachts, jet skis, fishing boats. We service your boat exactly where it sits, at home or at the marina.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-n">02</span>
+          <h3>Driveway Service</h3>
+          <p>No marina required. We arrive with all professional tools — and complete the job at your property.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-n">03</span>
+          <h3>Hull Care</h3>
+          <p>Hull polishing on all gel coat, paint and vinyl wrapped hulls to transform your boats look.</p>
+        </div>
+        <div class="svc-card">
+          <span class="svc-n">04</span>
+          <h3>Trailer Care and Servicing</h3>
+          <p>Keep your trailer rolling longer with wheel bearing replacement, rust removal and rust protection. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-strip reveal">
+      <div class="ms-left">
+        <span class="big">Mobile</span>
+        <span class="sm">Fully self-contained</span>
+      </div>
+      <div class="ms-mid">
+        <p>Our detailing unit carries  a full inventory of professional products. Marina berth, dry stack, or home driveway — the same premium result, on your schedule.</p>
+      </div>
+      <div class="ms-right">
+        <a href="#quote" class="btn-solid" style="font-size:0.63rem;padding:0.7rem 1.4rem;white-space:nowrap;">
+          Book Mobile Visit
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" style="width:12px;height:12px;"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="cert-strip reveal">
+      <div class="cert-left">
+        <div class="cert-dot"></div>
+        <div>
+          <h4>Trained Ceramic Pro Installers</h4>
+          <p>Certified to apply Ceramic Pro nano-ceramic coatings to manufacturer standard — every application backed by product warranty.</p>
+        </div>
+      </div>
+      <a href="#products" class="btn-ghost" style="font-size:0.63rem;padding:0.65rem 1.4rem;white-space:nowrap;">View Products</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- HOME COATINGS -->
+<section id="home-coatings">
+  <div class="wrap">
+
+    <div class="s-head reveal">
+      <div>
+        <div class="label label--accent" style="margin-bottom:1rem;">02 — Residential</div>
+        <h2>Home Glass<br>&amp; Coatings</h2>
+      </div>
+      <div style="padding-top:0.6rem;">
+        <p>The same professional-grade nano-ceramic technology protecting your boat now applied to your home. Shower glass, windows, stone, tiles — surfaces that stay cleaner, longer.</p>
+      </div>
+    </div>
+
+    <div class="coat-grid">
+      <div class="coat-card reveal">
+        <span class="coat-n">01</span>
+        <h3>Shower Glass Polishing</h3>
+        <p>Remove calcium deposits, limescale, and water staining from shower panels. Machine polished back to optical clarity before any coating is applied.</p>
+      </div>
+      <div class="coat-card reveal d1">
+        <span class="coat-n">02</span>
+        <h3>Shower Glass Coating</h3>
+        <p>Ceramic Pro nano-coating creates a hydrophobic barrier — water beads and rolls off, dramatically reducing limescale buildup and cleaning effort.</p>
+      </div>
+      <div class="coat-card reveal d2">
+        <span class="coat-n">03</span>
+        <h3>Glass Polishing</h3>
+        <p>Professional machine polishing for windows, balustrades, pool fencing, and any glass surface with scratches, haze, or water etching.</p>
+      </div>
+      <div class="coat-card reveal">
+        <span class="coat-n">04</span>
+        <h3>Residential Ceramic Coatings</h3>
+        <p>Ceramic Pro formulations for stone benchtops, tiles, and hard surfaces. Stain-resistant, easy-clean protection built to last years, not months.</p>
+      </div>
+      <div class="coat-card reveal d1">
+        <span class="coat-n">05</span>
+        <h3>Bathroom &amp; Kitchen Surfaces</h3>
+        <p>Nano-ceramic protection for vanities, benchtops, splashbacks, and tiles — reduces staining and makes surfaces dramatically easier to maintain.</p>
+      </div>
+      <div class="coat-card reveal d2">
+        <span class="coat-n">06</span>
+        <h3>Long-Term Surface Protection</h3>
+        <p>Unlike traditional sealants that degrade in months, Ceramic Pro bonds permanently at a molecular level for multi-year, low-maintenance protection.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="wrap">
+
+    <div class="s-head reveal">
+      <div>
+        <div class="label label--accent" style="margin-bottom:1rem;">03 — Process</div>
+        <h2>How We<br>Work</h2>
+      </div>
+      <div style="padding-top:0.6rem;">
+        <p>Every job follows a methodical, product-specific process. No shortcuts. Each stage exists for a reason — and understanding why makes the difference between a good result and a lasting one.</p>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="acc-item open">
+        <button class="acc-trigger" onclick="toggleAcc(this)">
+          <span class="acc-n">01</span>
+          <span class="acc-title">Why Cleaning Must Come Before Polishing</span>
+          <span class="acc-icon"></span>
+        </button>
+        <div class="acc-body">
+          <p>Polishing a contaminated surface grinds grit and salt into the gelcoat, causing micro-scratches and permanent damage. Pre-cleaning is non-negotiable.</p>
+          <ul>
+            <li>Salt crystals and road grit act as abrasives under a polishing pad</li>
+            <li>Wax residues interfere with compound adhesion and final results</li>
+            <li>Biological growth must be fully removed before any machine work begins</li>
+            <li>A clean surface lets abrasives work correctly — and safely</li>
+          </ul>
+        </div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-trigger" onclick="toggleAcc(this)">
+          <span class="acc-n">02</span>
+          <span class="acc-title">Step-by-Step Polishing Process</span>
+          <span class="acc-icon"></span>
+        </button>
+        <div class="acc-body">
+          <p>Our multi-stage polishing process is adapted to each vessel's condition, finish type, and gelcoat depth.</p>
+          <ul>
+            <li><strong>Stage 1 — Inspection:</strong> Assessment of oxidation level, defects, and gelcoat thickness</li>
+            <li><strong>Stage 2 — Pre-wash:</strong> Koch Chemie SFR strip wash to remove salt, wax, and contamination</li>
+            <li><strong>Stage 3 — Compound:</strong> Machine compounding to remove oxidation and heavy surface defects</li>
+            <li><strong>Stage 4 — Polish:</strong> Finishing polish to refine clarity and maximise gloss depth</li>
+            <li><strong>Stage 5 — Protection:</strong> Hand wax, sealant, or Ceramic Pro coating as the final protective layer</li>
+          </ul>
+        </div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-trigger" onclick="toggleAcc(this)">
+          <span class="acc-n">03</span>
+          <span class="acc-title">Surface Preparation &amp; Why It Matters</span>
+          <span class="acc-icon"></span>
+        </button>
+        <div class="acc-body">
+          <p>Preparation is the foundation. No matter how good the polish or coating, a poorly prepared surface will always limit the result.</p>
+          <ul>
+            <li>Decontamination removes embedded fallout, salt, and biological material</li>
+            <li>Wax stripping ensures coatings bond directly to the gelcoat — not over old product</li>
+            <li>Paint depth readings determine the safest level of correction for each panel</li>
+            <li>Panel-by-panel inspection identifies problem areas before machine work begins</li>
+          </ul>
+        </div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-trigger" onclick="toggleAcc(this)">
+          <span class="acc-n">04</span>
+          <span class="acc-title">Different Wash Types Explained</span>
+          <span class="acc-icon"></span>
+        </button>
+        <div class="acc-body">
+          <p>Each wash type is selected for a specific outcome. Using the wrong wash at the wrong stage costs time and compromises results.</p>
+          <ul>
+            <li><strong>Strip Wash (SFR):</strong> Removes wax and sealant layers — essential before polishing or coating</li>
+            <li><strong>Salt-Neutralising Wash:</strong> Penetrates and dissolves salt in tight areas, preventing long-term corrosion</li>
+            <li><strong>Maintenance Wash:</strong> pH-neutral, wax-safe formula for regular wash downs without stripping protection</li>
+            <li><strong>Ceramic Wash:</strong> Formulated to safely clean Ceramic Pro–coated surfaces and boost hydrophobic properties</li>
+          </ul>
+        </div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-trigger" onclick="toggleAcc(this)">
+          <span class="acc-n">05</span>
+          <span class="acc-title">Ceramic Pro Application Protocol</span>
+          <span class="acc-icon"></span>
+        </button>
+        <div class="acc-body">
+          <p>As certified installers, our application follows manufacturer protocol precisely — ensuring maximum bond strength and coating longevity.</p>
+          <ul>
+            <li>Surface must be fully polished, decontaminated, and free of oils and waxes</li>
+            <li>Application in controlled conditions — avoiding direct sun, wind, and humidity</li>
+            <li>Panel-by-panel levelling with specialist suede applicator cloths</li>
+            <li>Flash time monitored per panel for optimal cure before buffing</li>
+            <li>Multi-layer application for 9H packages — each layer fully cured before the next</li>
+            <li>Final cure protection period of 24–48 hours before water contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="acc-item">
+  <button class="acc-trigger" onclick="toggleAcc(this)">
+    <span class="acc-n">03</span>
+    <span class="acc-title">TRAILER CARE &amp; SERVICING OPTIONS</span>
+    <span class="acc-icon"></span>
+  </button>
+  <div class="acc-body">
+    <p>We offer trailer care and light servicing to keep your setup safe, reliable, and protected from harsh marine conditions.</p>
+    <ul>
+      <li>Decontamination washes to remove embedded fallout, salt, and biological material</li>
+      <li>Rust removal and treatment to stop corrosion spreading and restore structural integrity</li>
+      <li>Application of protective coatings and inhibitors to slow future rust and environmental damage</li>
+      <li>Cavity waxing inside trailer sections to protect internal metal surfaces from hidden corrosion</li>
+      <li>Wheel bearing inspection and replacement to ensure smooth, safe towing and prevent roadside failures</li>
+      <li>Trailer wiring diagnostics and repairs to resolve connection issues and electrical faults</li>
+      <li>Light and bulb replacement to ensure all indicators and brake lights are functioning correctly</li>
+    </ul>
+  </div>
+</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="wrap">
+
+    <div class="s-head reveal">
+      <div>
+        <div class="label label--accent" style="margin-bottom:1rem;">04 — Products</div>
+        <h2>What We<br>Use</h2>
+      </div>
+      <div style="padding-top:0.6rem;">
+        <p>We work exclusively with professional-grade products trusted by detailers worldwide. No supermarket formulas — only chemistry engineered for serious, lasting results.</p>
+      </div>
+    </div>
+
+    <div class="prod-grid">
+      <div class="prod-card reveal">
+        <div class="prod-brand">Koch Chemie</div>
+        <h3>Cutting Compounds</h3>
+        <p>Professional machine compounds that cut through heavy oxidation and surface defects efficiently — safe on gelcoat and paint, with German-engineered precision.</p>
+        <img src="H9_COMPOUND.jpg" alt="H9_Cutting_Compound">
+        <div class="prod-tags">
+
+          <span class="prod-tag prod-tag--a">Heavy Correction</span>
+          <span class="prod-tag">Safe on Gelcoat</span>
+          <span class="prod-tag">German Formula</span>
+        </div>
+      </div>
+      <div class="prod-card reveal d1">
+        <div class="prod-brand">Koch Chemie</div>
+        <h3>Hand Wax &amp; Finishing</h3>
+        
+        <p>Carnauba-enriched hand wax delivering outstanding depth, warmth, and gloss. A natural, luxurious finish that protects against UV and environmental fallout.</p>
+        <img src="W0_01.jpg" alt="Hand_Wax">
+        <div class="prod-tags">
+          <span class="prod-tag">Carnauba Blend</span>
+          <span class="prod-tag">Deep Gloss</span>
+          <span class="prod-tag">UV Protection</span>
+        </div>
+      </div>
+      <div class="prod-card reveal d2">
+        <div class="prod-brand">Ceramic Pro</div>
+        <h3>9H Nano-Ceramic</h3>
+        
+        <p>The global standard in professional ceramic coating. Bonds permanently to surfaces — protection harder than the gelcoat itself, with a self-cleaning hydrophobic effect.</p>
+        <img src="ceramic-pro-marine.png" alt="Ceramic_Pro">
+        <div class="prod-tags">
+          <span class="prod-tag prod-tag--a">Certified Installer</span>
+          <span class="prod-tag">Permanent Bond</span>
+          <span class="prod-tag">9H Hardness</span>
+        </div>
+      </div>
+      <div class="prod-card reveal">
+        <div class="prod-brand">Koch Chemie</div>
+        <h3>Marine Wash Range</h3>
+        <p>SFR strip washes to pH-neutral maintenance shampoos — every wash selected for a specific stage of the process, from boat to trailer to residential surface.</p>
+        <img src="KOCH_GSF.webp" alt="Snow_Foam">
+        <div class="prod-tags">
+          <span class="prod-tag">Strip Wash</span>
+          <span class="prod-tag">pH Neutral</span>
+          <span class="prod-tag">Salt Removal</span>
+        </div>
+      </div>
+      <div class="prod-card reveal d1">
+        <div class="prod-brand">Pro Care</div>
+        <h3>Boat Wash Formulas</h3>
+        <p>Marine-specific formulas from Pro Care, effective and safe on most surfaces — without damage, residue, or environmental harm in sensitive coastal areas.</p>
+        
+        <div class="prod-tags">
+          <span class="prod-tag">Marine Grade</span>
+          <span class="prod-tag">Proudly NZ Made</span>
+          
+          <span class="prod-tag">Multi-Surface</span>
+          <span class="prod-tag">Biodegradable</span>
+        </div>
+      </div>
+      <div class="prod-card reveal d2">
+        <div class="prod-brand">Ceramic Pro</div>
+        <h3>Residential Range</h3>
+        <p>Formulated specifically for glass, stone, tile, and bathroom surfaces. The same nano-technology protecting your boat, now protecting your home.</p>
+        <img src="ceramic-pro-rain.png" alt="ceramic_rain">
+        <div class="prod-tags">
+          <span class="prod-tag prod-tag--a">Home Surfaces</span>
+          <span class="prod-tag">Shower Glass</span>
+          <span class="prod-tag">Stone &amp; Tile</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="wrap">
+
+    <div class="s-head reveal">
+      <div>
+        <div class="label label--accent" style="margin-bottom:1rem;">05 — Reviews</div>
+        <h2>Client<br>Feedback</h2>
+      </div>
+      <div style="padding-top:0.6rem;">
+        <p>We let the results speak. Here's what boat owners and homeowners say after experiencing the Boutique Boat Care difference.</p>
+      </div>
+    </div>
+
+    <div class="t-grid">
+      <div class="t-card reveal">
+        <div class="t-stars">★ ★ ★ ★ ★</div>
+        <p>"Incredible results on my 7m trailer boat. Came to my driveway, left it looking better than the day I bought it. The ceramic coating is genuinely impressive — water just rolls straight off."</p>
+        <div class="t-meta">
+          <div class="t-name">Mark J.</div>
+          <div class="t-boat">2019 Haines Hunter 675</div>
+        </div>
+      </div>
+      <div class="t-card reveal d1">
+        <div class="t-stars">★ ★ ★ ★ ★</div>
+        <p>"Used them for our shower glass — years of limescale that nothing else would touch. They polished it back to crystal clear and coated it. Barely need to clean it now."</p>
+        <div class="t-meta">
+          <div class="t-name">Sarah R.</div>
+          <div class="t-boat">Residential client</div>
+        </div>
+      </div>
+      <div class="t-card reveal d2">
+        <div class="t-stars">★ ★ ★ ★ ★</div>
+        <p>"Professional, thorough, and they know their products inside out. The teak on our launch was completely dried out — they brought it back beautifully. Stainless looks like mirrors."</p>
+        <div class="t-meta">
+          <div class="t-name">Tom C.</div>
+          <div class="t-boat">Classic 38ft launch</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section id="quote">
+  <div class="wrap">
+
+    <div class="s-head reveal">
+      <div>
+        <div class="label label--accent" style="margin-bottom:1rem;">06 — Quote</div>
+        <h2>Request<br>a Quote</h2>
+      </div>
+      <div style="padding-top:0.6rem;">
+        <p>Tell us about your vessel or property and what you need. We'll come back with a clear, tailored quote — usually within 24 hours.</p>
+      </div>
+    </div>
+
+    <form id="quoteForm" onsubmit="submitForm(event)" class="form-wrap reveal">
+      <div class="form-row">
+        <div class="f-group">
+          <label>Full Name</label>
+          <input type="text" name="name" placeholder="Your name" required />
+        </div>
+        <div class="f-group">
+          <label>Email Address</label>
+          <input type="email" name="email" placeholder="your@email.com" required />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="f-group">
+          <label>Phone Number</label>
+          <input type="tel" name="phone" placeholder="+64 21 000 0000" />
+        </div>
+        <div class="f-group">
+          <label>Your Location</label>
+          <input type="text" name="location" placeholder="Suburb or city" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="f-group">
+          <label>Boat Make &amp; Model</label>
+          <input type="text" name="boat_make" placeholder="e.g. Haines Hunter 675 — or N/A" />
+        </div>
+        <div class="f-group">
+          <label>Vessel / Property Age</label>
+          <input type="text" name="boat_age" placeholder="e.g. 2018" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="f-group">
+          <label>Current Condition</label>
+          <select name="condition">
+            <option value="" disabled selected>Select condition</option>
+            <option>Excellent — minor maintenance only</option>
+            <option>Good — some oxidation or light marks</option>
+            <option>Fair — moderate oxidation, visible fading</option>
+            <option>Poor — heavy oxidation, significant restoration needed</option>
+          </select>
+        </div>
+        <div class="f-group">
+          <label>Service Category</label>
+          <select name="service_type">
+            <option value="" disabled selected>Select category</option>
+            <option>Marine — boat in marina</option>
+            <option>Marine — trailer boat at home</option>
+            <option>Residential — home coatings / glass</option>
+            <option>Both marine and residential</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row solo">
+        <div class="f-group">
+          <label>Services Required</label>
+          <div class="svc-checks">
+            <label class="svc-chk"><input type="checkbox" name="services" value="Boat Polishing" /><span>Boat Polishing</span></label>
+            <label class="svc-chk"><input type="checkbox" name="services" value="Wash Down" /><span>Wash Down</span></label>
+            <label class="svc-chk"><input type="checkbox" name="services" value="Waxing" /><span>Waxing</span></label>
+            <label class="svc-chk"><input type="checkbox" name="services" value="Stainless Polishing" /><span>Stainless Steel Polishing</span></label>
+            <label class="svc-chk"><input type="checkbox" name="services" value="Teak Cleaning" /><span>Teak Cleaning</span></label>
+            <label class="svc-chk"><input type="checkbox" name="services" value="Marine Ceramic Coating" /><span>Marine Ceramic Coating</span></label>
+            <label class="svc-chk"><input type="checkbox" name="services" value="Shower Glass Polishing" /><span>Shower Glass Polishing</span></label>
+            <label class="svc-chk"><input type="checkbox" name="services" value="Shower Glass Coating" /><span>Shower Glass Coating</span></label>
+            <label class="svc-chk"><input type="checkbox" name="services" value="Residential Coatings" /><span>Residential Coatings</span></label>
+            <label class="svc-chk"><input type="checkbox" name="services" value="Glass Polishing" /><span>General Glass Polishing</span></label>
+          </div>
+        </div>
+      </div>
+      <div class="form-row solo">
+        <div class="f-group">
+          <label>Additional Details</label>
+          <textarea name="details" placeholder="Vessel size, specific concerns, preferred timing, access notes…"></textarea>
+        </div>
+      </div>
+      <div class="form-foot">
+        <button type="submit" class="btn-solid">
+          Submit Request
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </button>
+        <p class="form-note">We respond within 24 hours. Your details are never shared.</p>
+      </div>
+      <div id="form-success">Quote request sent — we'll be in touch within 24 hours.</div>
+    </form>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="label" style="color:rgba(255,255,255,0.22);margin-bottom:2.5rem;display:block;">07 — Contact</div>
+    <div class="contact-row">
+      <div class="c-item reveal">
+        <div class="c-lbl">Email</div>
+        <div class="c-val">hello@</div>
+        <div class="c-val">boutiqueboat.care</div>
+        <div class="c-sub">We reply within 24 hours</div>
+      </div>
+      <div class="c-item reveal d1">
+        <div class="c-lbl">Phone / Text</div>
+        <div class="c-val">+64 27</div>
+        <div class="c-val">521 5278</div>
+        <div class="c-sub">Mon–Sat, 9am–5pm</div>
+      </div>
+      <div class="c-item reveal d2">
+        <div class="c-lbl">Service Area</div>
+        <div class="c-val">Mobile</div>
+        <div class="c-val">Across Region</div>
+        <div class="c-sub">Marina, dry stack, or your driveway</div>
+        <div class="c-socials">
+          <a href="#" class="c-social">Instagram</a>
+          <a href="#" class="c-social">Facebook</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap footer-inner">
+    <span class="f-brand">Boutique Boat Care</span>
+    <span class="f-copy">© 2025 — Trained Ceramic Pro Installers — Marine &amp; Residential Detailing</span>
+  </div>
+</footer>
+
+<script src = 'script.js'> </script>
+</body>
+</html>
