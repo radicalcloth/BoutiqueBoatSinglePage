@@ -47,6 +47,8 @@ body {
     line-height: 1.7;
     overflow-x: hidden;
     cursor: none;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
 
 /* ===== CUSTOM CURSOR ===== */
