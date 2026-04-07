@@ -19,7 +19,7 @@ a { color: inherit; text-decoration: none; }
 /* TYPE */
 .label {
     font-family: var(--body);
-    font-size: 0.62rem;
+    font-size: 0.7rem;
     font-weight: 500;
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -112,7 +112,7 @@ p {
 .nav-logo .sep { width: 1px; height: 13px; background: var(--rule); }
 .nav-logo .sub { font-size: 0.58rem; letter-spacing: 0.17em; text-transform: uppercase; color: var(--mid); font-weight: 400; }
 .nav-links { display: flex; align-items: center; gap: 2.2rem; list-style: none; }
-.nav-links a { font-size: 0.62rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mid); font-weight: 500; transition: color 0.2s; }
+.nav-links a { font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mid); font-weight: 500; transition: color 0.2s; }
 .nav-links a:hover { color: var(--ink); }
 .nav-links .nav-cta a { color: var(--ink); border-bottom: 1px solid var(--ink); padding-bottom: 1px; }
 .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
@@ -412,7 +412,7 @@ img{
     border-top: 1px solid var(--rule);
     border-bottom: 1px solid var(--rule);
 }
-.t-stars { font-size: 0.62rem; letter-spacing: 0.12em; color: var(--accent); margin-bottom: 1.1rem; }
+.t-stars { font-size: 0.7rem; letter-spacing: 0.12em; color: var(--accent); margin-bottom: 1.1rem; }
 .t-card p { font-size: 0.87rem; line-height: 1.82; font-style: italic; color: var(--ink); margin-bottom: 1.4rem; }
 .t-meta { border-top: 1px solid var(--rule); padding-top: 1rem; }
 .t-name { font-size: 0.74rem; font-weight: 500; letter-spacing: 0.05em; color: var(--ink); }
@@ -484,7 +484,7 @@ img{
 footer { background: var(--ink); border-top: 1px solid rgba(255,255,255,0.06); padding: 1.4rem 0; }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 .f-brand { font-family: var(--serif); font-size: 1rem; color: rgba(255,255,255,0.22); letter-spacing: 0.04em; }
-.f-copy  { font-size: 0.62rem; color: rgba(255,255,255,0.18); letter-spacing: 0.07em; }
+.f-copy  { font-size: 0.7rem; color: rgba(255,255,255,0.18); letter-spacing: 0.07em; }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 960px) {
